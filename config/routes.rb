@@ -60,7 +60,6 @@ Rails.application.routes.draw do
 
   # root to: "home#index"
 
-  mount V1::ApplicationAPI => '/'
-  mount V2::ApplicationAPI => '/'
+  mount ApplicationAPI => '/'
 
 end

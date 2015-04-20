@@ -1,5 +1,5 @@
 module V2
-  class ProductAPI < Grape::API
+  class ProductAPI < Base
     resource :products do
       desc "List all Employee"
 
