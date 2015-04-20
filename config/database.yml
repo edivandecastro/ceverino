@@ -1,0 +1,22 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  pool: 20
+  timeout: 5000
+  username: postgres
+  password: postgres
+  host: localhost
+
+development:
+  <<: *default
+  database: ceverino_development
+
+test:
+  <<: *default
+  database: ceverino_test
+
+production:
+  <<: *default
+  database: ceverino_production
+  username: ceverino
+  password: <%= ENV['CEVERINO_DATABASE_PASSWORD'] %>
