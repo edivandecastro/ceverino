@@ -3,7 +3,7 @@ module V1
     namespace "secret"
 
     get "secret1" do
-      { :secret1 => "Hi, #{current_user.email}" }
+      { :secret1 => "Hi, visitor" }
     end
 
     get "secret2" do
