@@ -1,3 +1,5 @@
+[![Dependency Status](https://gemnasium.com/edivandecastro/ceverino.svg)](https://gemnasium.com/edivandecastro/ceverino)
+
 http://localhost:3000/api/v1/products
 
 Ceverino
