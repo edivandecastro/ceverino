@@ -14,18 +14,18 @@ gem 'coffee-rails', '~> 4.1.1'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
-gem 'devise', '~> 3.5.3'
+gem 'devise', '~> 3.5.4'
 
 gem 'grape'
 
 gem 'doorkeeper', '~> 3.1.0'
 
-gem 'puma', '~> 2.9.2'
+gem 'puma', '~> 2.15.3'
 
 gem 'rails_12factor'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 4.1.0'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -34,7 +34,7 @@ gem 'jbuilder', '~> 2.4.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-gem 'spring', '~> 1.6.1',        group: :development
+gem 'spring', '~> 1.6.2',        group: :development
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
